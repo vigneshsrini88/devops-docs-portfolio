@@ -1,4 +1,5 @@
 # Linux CLI Basics
 ## Navigation Commands
 cd, ls, pwd, mkdir
-This line was added on main
+1. This line was added on main
+2. This line was added on the feature branch
