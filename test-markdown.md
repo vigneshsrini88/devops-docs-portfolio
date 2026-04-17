@@ -1,5 +1,5 @@
 # Linux CLI Quick Reference
-The ***Linux Command Line Interface*** (*CLI*) is a text-based enviornment used to interact with the computer's operating system (OS) by entering specific commands.  
+The ***Linux Command Line Interface*** (*CLI*) is a text-based environment used to interact with the computer's operating system (OS) by entering specific commands.  
 It is highly efficient for automation, remote server management, and technical troubleshooting.
 -----
 ## Basic Linux commands
@@ -11,12 +11,12 @@ It is highly efficient for automation, remote server management, and technical t
 | Command | Flag | Purpose |
 |:-------:|:----:|:--------|
 |`chmod`|`777`|Provide full permission to all - `rwxrwxrwx` - owner (7 - means full permission to read, writer, and execute), group (7), and other (7) |
-|`chomd`|`764`|Provide permission to partial - `rwxrw-r--` - owner= rwx (7), group = rw- (6), other = r-- (4)|
+|`chmod`|`764`|Provide permission to partial - `rwxrw-r--` - owner= rwx (7), group = rw- (6), other = r-- (4)|
 --------
 ## Code block
 ```bash
-cd ~/.bashrc
-cd ~/projects | grep -i "linux"
+cat ~/.bashrc
+ls ~/projects | grep -i "linux"
 ```
 --------
 ## Inline Code
@@ -32,7 +32,9 @@ cd ~/projects | grep -i "linux"
 ## Task List
 
 - [x] - Test Done
+- [x] - week1 -day3
 - [ ] - Learning Complete
+- [ ] - week1-day4
 
 -----
 
